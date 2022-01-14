@@ -6,7 +6,6 @@
 
                 <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
                 <hr class="mb-5 mx-5">
-<!-- heheh -->
                 <?php if(session()->getFlashdata('error')):?>
                     <div class="alert alert-danger"><?= session()->getFlashdata('error') ?></div>
                 <?php endif;?>
